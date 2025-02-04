@@ -4,19 +4,19 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2023",
+      yearRange: "Jan 2023 - Nov 2023",
       title: "Full Stack Web Development Program",
       place: "Microverse, CA, USA (Full Time - Remote)",
       desc: "Spent 1300+ hours mastering algorithms, data structures, and full-stack development with Ruby, Rails, JavaScript, React, and Redux. Gained remote pair programming experience using GitHub, gitflow, linters, and daily standups to collaborate with global teams."
     },
     {
-      yearRange: "2011-2014",
+      yearRange: "Jan 2011 - Dec 2014",
       title: "Graduation",
       place: "University of Information Technology & Sciences",
       desc: "I pursued my Graduation at the University of Information Technology & Sciences in Dhaka, where I gained a solid foundation in cutting-edge technology and computer science."
     },
     {
-      yearRange: "2008-2010",
+      yearRange: "Aug 2008 - Sep 2010",
       title: "Higher Secondary Certificate",
       place: "Rajshahi Court College",
       desc: "I completed my Higher Secondary Certificate at Rajshahi Court College, where I honed my academic skills and laid the groundwork for my future in technology."
