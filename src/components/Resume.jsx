@@ -4,13 +4,19 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2015",
+      yearRange: "2023",
+      title: "Full Stack Web Development Program",
+      place: "Microverse, CA, USA (Full Time - Remote)",
+      desc: "Spent 1300+ hours mastering algorithms, data structures, and full-stack development with Ruby, Rails, JavaScript, React, and Redux. Gained remote pair programming experience using GitHub, gitflow, linters, and daily standups to collaborate with global teams."
+    },
+    {
+      yearRange: "2011-2014",
       title: "Graduation",
-      place: "University of Information Technology & Sciences, Dhaka",
+      place: "University of Information Technology & Sciences",
       desc: "I pursued my Graduation at the University of Information Technology & Sciences in Dhaka, where I gained a solid foundation in cutting-edge technology and computer science."
     },
     {
-      yearRange: "2010",
+      yearRange: "2008-2010",
       title: "Higher Secondary Certificate",
       place: "Rajshahi Court College",
       desc: "I completed my Higher Secondary Certificate at Rajshahi Court College, where I honed my academic skills and laid the groundwork for my future in technology."
@@ -26,27 +32,57 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const experienceDetails = [
     {
-      yearRange: "2017 - 2019",
+      yearRange: "May 2024 - Present",
+      title: "Full Stack Developer",
+      place: "SoftTech, Dhaka (Remote)",
+      desc: "Developed high-quality software systems using Laravel, leading feature development, API integrations, and full-stack collaboration. Utilized tools like Eloquent ORM and Artisan CLI to create scalable solutions in an agile environment, delivering impactful updates and meeting deadlines."
+    },
+    {
+      yearRange: "Nov 2019 - Dec 2022",
       title: "Executive",
       place: "Telenor Health, Dhaka",
-      desc: "As an Executive at Telenor Health in Dhaka, I played a key role in facilitating operations and supporting the team in achieving organizational excellence."
+      desc: "Led collaboration between the tech and operations teams at Digital Healthcare Solutions, enhancing communication and increasing team productivity by 25%. Managed the entire lifecycle of insurance claims and provided valuable insights, improving web solution quality by 15%."
     },
     {
-      yearRange: "2018 - 2019",
-      title: "Jr. Web Developer",
+      yearRange: "Jun 2017 - Oct 2019",
+      title: "Jr. Software Developer",
       place: "Desktop IT, Dhaka",
-      desc: "During my tenure as a Jr. Web Developer at Desktop IT in Dhaka, I contributed to web development projects, transforming ideas into functional and responsive web applications."
+      desc: "Developed web applications using Laravel, boosting website traffic by 10% and enhancing conversion rates. Delivered customized WordPress solutions, optimized management software, and improved productivity by 15%."
     },
     {
-      yearRange: "2016 - 2018",
-      title: "Jr. UI UX Designer",
-      place: "NWIT, Dhaka",
-      desc: "As a Jr. UI/UX Designer at NWIT in Dhaka, I collaborated on creating visually stunning and user-friendly interfaces, shaping digital experiences that captivated users."
+      yearRange: "Apr 2015 - May 2017",
+      title: "Frontend Developer",
+      place: "NWIT Village, Rajshahi",
+      desc: "Designed visually stunning, mobile-first UI's that increased user engagement and improved accessibility, resulting in a 25% boost in user reach. Led internal software interface development, and contributed increasing team productivity through training on web technologies."
     },
   ];
 
 
   const skills = [
+    {
+      name: "Laravel",
+      percent: 75,
+    },
+    {
+      name: "WordPress",
+      percent: 60,
+    },
+    {
+      name: "Ruby on Rails",
+      percent: 60,
+    },
+    {
+      name: "MySQL",
+      percent: 85,
+    },
+    {
+      name: "PostgreSQL",
+      percent: 85,
+    },
+    {
+      name: "Github",
+      percent: 90,
+    },
     {
       name: "JavaScript",
       percent: 70,
@@ -57,36 +93,11 @@ const Resume = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "HTML/CSS",
-      percent: 95,
+      percent: 90,
     },
     {
       name: "Bootstrap",
-      percent: 99,
-    },
-    
-    {
-      name: "Ruby",
-      percent: 60,
-    },
-    {
-      name: "Ruby on Rails",
-      percent: 60,
-    },
-    {
-      name: "RSPec",
-      percent: 70,
-    },
-    {
-      name: "CapyBara",
-      percent: 60,
-    },
-    {
-      name: "Github",
-      percent: 70,
-    },
-    {
-      name: "Gitflow",
-      percent: 99,
+      percent: 95,
     },
   ];
 
