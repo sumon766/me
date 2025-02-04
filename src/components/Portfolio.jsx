@@ -17,6 +17,23 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
+      title: "DIG Rajshahi Range",
+      projectInfo:
+        "A website developed for the Bangladesh Police, specifically catering to the Rajshahi Range Police division. Built using Laravel and Bootstrap, this site serves as an all-inclusive platform for accessing info about the Rajshahi Range Police.",
+      source: "",
+      technologies: "Laravel, Bootstrap",
+      url: {
+        name: "See Live Demo",
+        link: "https://www.digrajshahirange.gov.bd/",
+      },
+      thumbImage: "images/projects/DIG-Rajshahi-Range.webp",
+      sliderImages: [
+        "images/projects/expense-Tracker-2.webp",
+        "images/projects/expense-tracker-mobile.webp",
+      ],
+      categories: [filters.RAILS],
+    },
+    {
       title: "Expenses Tracker",
       projectInfo:
         "Expense Tracker is a mobile web application designed to effortlessly monitor daily expenditures. Users can securely sign up, sign in, and diligently record daily expenses, enabling comprehensive monthly or yearly financial analysis. With customizable categories and transaction logging, users gain insights into their spending habits, fostering fiscal responsibility.",
@@ -24,12 +41,12 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "React, Ruby on Rails",
       url: {
         name: "See Live Demo",
-        link: "https://expenses-tracker-8m6v.onrender.com/",
+        link: "",
       },
-      thumbImage: "images/projects/expense-Tracker.png",
+      thumbImage: "images/projects/expense-Tracker.webp",
       sliderImages: [
-        "images/projects/expense-Tracker-2.png",
-        "images/projects/expense-tracker-mobile.png",
+        "images/projects/expense-Tracker-2.webp",
+        "images/projects/expense-tracker-mobile.webp",
       ],
       categories: [filters.RAILS],
     },
@@ -43,10 +60,10 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "See Live Demo",
         link: "https://sumon766.github.io/bookstore/",
       },
-      thumbImage: "images/projects/bookstore.png",
+      thumbImage: "images/projects/bookstore.webp",
       sliderImages: [
-        "images/projects/bookstore.png",
-        "images/projects/bookstore-2.png",
+        "images/projects/bookstore.webp",
+        "images/projects/bookstore-2.webp",
       ],
       categories: [filters.REACT],
     },
@@ -60,11 +77,11 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "See Live Demo",
         link: "https://sumon766.github.io/countries-navigator/",
       },
-      thumbImage: "images/projects/countries-navigator.png",
+      thumbImage: "images/projects/countries-navigator.webp",
       sliderImages: [
-        "images/projects/countries-navigator.png",
-        "images/projects/countries-navigator-2.png",
-        "images/projects/countries-navigator-3.png",
+        "images/projects/countries-navigator.webp",
+        "images/projects/countries-navigator-2.webp",
+        "images/projects/countries-navigator-3.webp",
       ],
       categories: [filters.REACT],
     },
@@ -78,10 +95,10 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "See Live Demo",
         link: "https://space-travelers-hub-five.vercel.app/",
       },
-      thumbImage: "images/projects/space-travelers-hub.png",
+      thumbImage: "images/projects/space-travelers-hub.webp",
       sliderImages: [
-        "images/projects/space-travelers-hub-2.png",
-        "images/projects/space-travelers-hub-3.png",
+        "images/projects/space-travelers-hub-2.webp",
+        "images/projects/space-travelers-hub-3.webp",
       ],
       categories: [filters.REACT],
     },
@@ -95,9 +112,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "See Live Demo",
         link: "https://sumon766.github.io/leaderboard/dist/",
       },
-      thumbImage: "images/projects/leaderBoard.png",
+      thumbImage: "images/projects/leaderBoard.webp",
       sliderImages: [
-        "images/projects/leaderboard.png"
+        "images/projects/leaderboard.webp"
       ],
       categories: [filters.REACT],
     },
@@ -111,9 +128,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "See Live Demo",
         link: "https://sumon766.github.io/math-magicians",
       },
-      thumbImage: "images/projects/calculator-App.png",
+      thumbImage: "images/projects/calculator-App.webp",
       sliderImages: [
-        "images/projects/calculator-App-2.png",
+        "images/projects/calculator-App-2.webp",
       ],
       categories: [filters.REACT],
     },
@@ -127,10 +144,10 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "See Live Demo",
         link: "https://www.example.com",
       },
-      thumbImage: "images/projects/doctor-App.png",
+      thumbImage: "images/projects/doctor-App.webp",
       sliderImages: [
-        "images/projects/doctor-App.png",
-        "images/projects/doctor-App.png",
+        "images/projects/doctor-App.webp",
+        "images/projects/doctor-App.webp",
       ],
       categories: [filters.RAILS, filters.REACT, filters.REACTRAILS],
     },
