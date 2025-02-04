@@ -4,8 +4,8 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Web Design",
-      desc: " specialize in crafting visually appealing and user-friendly websites that engage and captivate visitors. Whether it's a personal blog or a corporate site, my designs are tailored to leave a lasting impression.",
+      name: "Frontend Development",
+      desc: " Specializing in building visually appealing and highly interactive user interfaces using JavaScript, React, and AJAX. Whether it’s a personal project or a large-scale web application, the focus is on creating seamless, user-friendly experiences that engage visitors and leave a lasting impact.",
       icon: "fas fa-desktop",
     },
     {
