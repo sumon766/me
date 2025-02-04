@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
@@ -9,47 +8,58 @@ const Contact = ({ classicHeader, darkTheme }) => {
   const form = useRef();
   const [sendingMail, setSendingMail] = useState(false);
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
     setSendingMail(true);
-    emailjs
-      .sendForm(
-        "service_i86k3ms",
-        "template_si6cin9",
-        form.current,
-        "c9HsDgGF0tvWyVnAL"
-      )
-      .then(
-        (result) => {
-          document.getElementById("contact-form").reset();
-          toast.success("Message sent successfully!", {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: darkTheme ? "dark" : "light",
-          });
-          console.log(result.text);
-          setSendingMail(false);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mpzewvze", {
+        method: "POST",
+        body: new FormData(form.current),
+        headers: {
+          Accept: "application/json",
         },
-        (error) => {
-          toast.error("Something went wrong!", {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: darkTheme ? "dark" : "light",
-          });
-          console.log(error.text);
-          setSendingMail(false);
-        }
-      );
+      });
+
+      if (response.ok) {
+        document.getElementById("contact-form").reset();
+        toast.success("Message sent successfully!", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: darkTheme ? "dark" : "light",
+        });
+      } else {
+        toast.error("Something went wrong!", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: darkTheme ? "dark" : "light",
+        });
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error("Something went wrong!", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: darkTheme ? "dark" : "light",
+      });
+    }
+
+    setSendingMail(false);
   };
 
   return (
@@ -128,25 +138,25 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "social-icons-muted" : "")
               }
             >
-              <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="top">
-                  <a
-                    href="https://twitter.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                </Tooltip>
-              </li>
               <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="top">
                   <a
-                    href="http://www.facebook.com/harnishdesign/"
+                    href="https://www.facebook.com/Sumon766/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-facebook-f" />
+                  </a>
+                </Tooltip>
+              </li>
+              <li className="social-icons-twitter">
+                <Tooltip text="Twitter" placement="top">
+                  <a
+                    href="https://twitter.com/Sumon766"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-twitter" />
                   </a>
                 </Tooltip>
               </li>
@@ -198,7 +208,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
             <form
               className={darkTheme ? "form-dark" : ""}
               id="contact-form"
-              action="php/mail.php"
+              action="https://formspree.io/f/mpzewvze"
               method="post"
               ref={form}
               onSubmit={sendEmail}
@@ -228,7 +238,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     className="form-control"
                     rows={5}
                     required
-                    placeholder="Tell us more about your needs........"
+                    placeholder="Tell me more about your needs........"
                     defaultValue={""}
                   />
                 </div>
