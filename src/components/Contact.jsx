@@ -123,7 +123,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
               </span>
-              sumon766@gmail.com
+              mursedul.dev@gmail.com
             </p>
             <h2
               className={
@@ -150,9 +150,9 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 </Tooltip>
               </li>
               <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="top">
+                <Tooltip text="X" placement="top">
                   <a
-                    href="https://twitter.com/Sumon766"
+                    href="https://X.com/Sumon766"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
