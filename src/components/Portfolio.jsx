@@ -10,7 +10,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
   const filters = {
-    DESIGN: "Desing",
+    DESIGN: "Design",
     BRAND: "Brand",
     PHOTOS: "Photos",
   };
