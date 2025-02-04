@@ -33,17 +33,17 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Sumon,</span> a Full Stack Web
+              Hi, I'm <span className="text-primary">Sumon,</span> a Full Stack Web
               Developer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-            I'm a seasoned Full Stack Web Developer proficient in React JS, Redux JS, webpack, jest, unit testing, responsive web design, UI/UX, GitHub, git-flow, Ruby, Ruby on Rails, API development, and software development.
+              I'm a passionate Full-Stack Web Developer with 4+ years of diverse experience building high-quality web applications. Specializing in React, Laravel, and Ruby on Rails, I thrive on turning complex requirements into clean, efficient code that meets both user and business goals.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            With 1400+ hours of coursework at Microverse, a remote software development school, I honed my skills and excelled in cross-cultural collaboration, pair programming, and the latest web tech. Previously, I spent three years as a web developer, specializing in WordPress and Laravel. My expertise includes crafting custom websites, optimizing performance, and delivering complex features.
+              After completing 1400+ hours of coursework at Microverse, I honed my skills in cross-cultural collaboration, pair programming, and the latest web technologies. With 2+ years of experience in PHP, WordPress, and Laravel, I’ve built custom websites, optimized performance, and delivered complex features.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            I'm passionate about solving real-world problems using agile methodologies like Kanban, pair programming, and mob programming. Let's collaborate and bring your projects to life! Connect with me to get started.
+              I excel in agile, remote-first environments, where collaboration drives success. I’m passionate about solving real-world problems and creating user-centered solutions that are both functional and visually appealing. From enhancing existing systems to building new ones, I tackle challenges and deliver valuable, high-quality results.
             </p>
           </div>
           {/* About me content end */}
@@ -60,14 +60,17 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span className="fw-600 me-2">Name:</span>Mursedul Islam Sumon
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">sumon766@gmail.com</a>
-                </li>
-                <li>
                   <span className="fw-600 me-2">Age:</span>31
                 </li>
+                <li>
+                  <span className="fw-600 me-2">Email:</span>
+                  <a href="mailto:chat@simone.com">mursedul.dev@gmail.com</a>
+                </li>
+                <li>
+                  <span className="fw-600 me-2">Mobile:</span>+8801754121818
+                </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Dhaka,
+                  <span className="fw-600 me-2">From:</span>Rajshahi,
                   Bangladesh
                 </li>
               </ul>

@@ -23,9 +23,10 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                     options={{
                       strings: [
                         "I'm Mursedul Islam Sumon.",
-                        "I'm a Software Developer.",
-                        "I'm a Photographer.",
-                        "I'm a Designer.",
+                        "I'm a Full Stack Developer.",
+                        "PHP, Laravel, WordPress.",
+                        "React, Ruby, Ruby on Rails.",
+                        "MySQL, PostgreSQL, Git.",
                       ],
                       autoStart: true,
                       loop: true,
