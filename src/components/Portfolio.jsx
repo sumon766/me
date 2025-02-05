@@ -173,6 +173,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "Krishok Bazar",
       projectInfo:
         "This is an eCommerce platform developed using Laravel, designed to offer a wide range of local products at affordable prices. As the lead developer, I was responsible for overseeing the development and ensuring the site operates smoothly and efficiently. The platform provides customers with multiple payment methods, offering flexibility and convenience for secure transactions.",
+      technologies: "Laravel, Bootstrap, RESTful API, MySQL",
       url: {
         name: "See Live Demo",
         link: "https://krishokbazar.com.bd/",
@@ -189,6 +190,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "Jaago Foundation",
       projectInfo:
         "Developed a website for Jaago Foundation, an NGO dedicated to empowering women and children. Using WordPress and the Elementor, I created a user-friendly and visually appealing site. Throughout the project, I maintained clear communication with the client, ensuring their requirements were accurately understood and seamlessly translated into the final product. The result is a website that reflects the foundation’s mission while providing an accessible platform for their initiatives.",
+      technologies: "WordPress, Elementor, MySQL",
       url: {
         name: "See Live Demo",
         link: "https://jaago.com.bd/",
@@ -205,6 +207,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "RDT121",
       projectInfo:
         "Developed a website for a driving license company catering to an Australian client, built on WordPress. The site offers a range of packages to suit different customer needs, and I integrated WooCommerce to enable easy online transactions. The result is a seamless and user-friendly experience for visitors looking to explore and purchase various services related to driving licenses.",
+      technologies: "WordPress, Elementor, MySQL",  
       url: {
         name: "See Live Demo",
         link: "https://rdt121.com/",
