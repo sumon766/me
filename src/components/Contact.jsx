@@ -13,7 +13,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
     setSendingMail(true);
 
     try {
-      const response = await fetch("https://formspree.io/f/mpzewvze", {
+      const response = await fetch("https://formspree.io/f/xqaelzgp", {
         method: "POST",
         body: new FormData(form.current),
         headers: {
