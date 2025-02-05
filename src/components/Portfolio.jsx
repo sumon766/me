@@ -201,6 +201,22 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.WORDPRESS],
     },
+    {
+      title: "RDT121",
+      projectInfo:
+        "Developed a website for a driving license company catering to an Australian client, built on WordPress. The site offers a range of packages to suit different customer needs, and I integrated WooCommerce to enable easy online transactions. The result is a seamless and user-friendly experience for visitors looking to explore and purchase various services related to driving licenses.",
+      url: {
+        name: "See Live Demo",
+        link: "https://rdt121.com/",
+      },
+      thumbImage: "images/projects/rdt121-3.webp",
+      sliderImages: [
+        "images/projects/rdt121-2.webp",
+        "images/projects/rdt121-3.webp",
+        "images/projects/rdt121-1.webp",
+      ],
+      categories: [filters.WORDPRESS],
+    },
   ];
 
   // initialize an Isotope object with configs
