@@ -208,7 +208,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
             <form
               className={darkTheme ? "form-dark" : ""}
               id="contact-form"
-              action="https://formspree.io/f/mpzewvze"
+              action="https://formspree.io/f/xqaelzgp"
               method="post"
               ref={form}
               onSubmit={sendEmail}
