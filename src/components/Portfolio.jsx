@@ -10,9 +10,10 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
   const filters = {
+    LARAVEL: "Laravel",
+    WORDPRESS: "WordPress",
     REACT: "React",
     RAILS: "Rails",
-    REACTRAILS: "React-Rails",
   };
 
   const projectsData = [
@@ -31,7 +32,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/expense-Tracker-2.webp",
         "images/projects/expense-tracker-mobile.webp",
       ],
-      categories: [filters.RAILS],
+      categories: [filters.LARAVEL],
     },
     {
       title: "Expenses Tracker",

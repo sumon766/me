@@ -92,7 +92,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
         {/* Heading end*/}
         <div className="row gy-5">
           {/* contact details */}
-          <div className="col-md-4 col-xl-3 order-1 order-md-0 text-center text-md-start">
+          <div className="col-md-5 col-xl-4 order-1 order-md-0 text-center text-md-start">
             <h2
               className={
                 "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
@@ -196,7 +196,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
             </ul>
           </div>
           {/* contact form */}
-          <div className="col-md-8 col-xl-9 order-0 order-md-1">
+          <div className="col-md-7 col-xl-8 order-0 order-md-1">
             <h2
               className={
                 "mb-3 text-5 text-uppercase text-center text-md-start " +
