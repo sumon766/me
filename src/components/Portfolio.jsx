@@ -143,7 +143,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "React, Ruby on Rails, RESTful API",
       url: {
         name: "See Live Demo",
-        link: "https://www.example.com",
+        link: "",
       },
       thumbImage: "images/projects/doctor-App.webp",
       sliderImages: [
@@ -151,6 +151,55 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/doctor-App.webp",
       ],
       categories: [filters.RAILS, filters.REACT, filters.REACTRAILS],
+    },
+    {
+      title: "FlightExpert",
+      projectInfo:
+        "Developed a comprehensive web application using Laravel that provides users with the latest flight and hotel information across various countries. It offers specialized Hajj and Umrah packages for single or multiple users, enhancing the booking experience with seamless and efficient service.",
+      technologies: "Laravel, Bootstrap, RESTful API, MySQL",
+      url: {
+        name: "See Live Demo",
+        link: "https://flightexpert.com/",
+      },
+      thumbImage: "images/projects/flysfare.webp",
+      sliderImages: [
+        "images/projects/flysfare.webp",
+        "images/projects/flight-search.webp",
+        "images/projects/flight-book.webp",
+      ],
+      categories: [filters.LARAVEL],
+    },
+    {
+      title: "Krishok Bazar",
+      projectInfo:
+        "This is an eCommerce platform developed using Laravel, designed to offer a wide range of local products at affordable prices. As the lead developer, I was responsible for overseeing the development and ensuring the site operates smoothly and efficiently. The platform provides customers with multiple payment methods, offering flexibility and convenience for secure transactions.",
+      url: {
+        name: "See Live Demo",
+        link: "https://krishokbazar.com.bd/",
+      },
+      thumbImage: "images/projects/krishok-bazar-3.webp",
+      sliderImages: [
+        "images/projects/krishok-bazar-3.webp",
+        "images/projects/krishok-bazar-2.webp",
+        "images/projects/krishok-bazar-1.webp",
+      ],
+      categories: [filters.LARAVEL],
+    },
+    {
+      title: "Jaago Foundation",
+      projectInfo:
+        "Developed a website for Jaago Foundation, an NGO dedicated to empowering women and children. Using WordPress and the Elementor, I created a user-friendly and visually appealing site. Throughout the project, I maintained clear communication with the client, ensuring their requirements were accurately understood and seamlessly translated into the final product. The result is a website that reflects the foundation’s mission while providing an accessible platform for their initiatives.",
+      url: {
+        name: "See Live Demo",
+        link: "https://jaago.com.bd/",
+      },
+      thumbImage: "images/projects/jaago-1.webp",
+      sliderImages: [
+        "images/projects/jaago-2.webp",
+        "images/projects/jaago-3.webp",
+        "images/projects/jaago-1.webp",
+      ],
+      categories: [filters.WORDPRESS],
     },
   ];
 
